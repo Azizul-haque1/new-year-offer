@@ -14,7 +14,7 @@ body{
 
 }
 
-header{
+section{
     max-width: 83%;
     margin: 50px auto;
 
@@ -60,4 +60,107 @@ header{
 .banner-content h1{
     font-size: 72px;
 
+}
+
+/* Off section  style */
+.off-section{
+    text-align: center;
+}
+
+.off-section h2, h6{
+    color: #ff0000;
+    
+}
+
+.off-section h2{
+    font-size: 88px;
+    font-weight: bold;
+    /* margin-bottom: 48px; */
+}
+
+.off-section h6{
+    font-size: 24px;
+    font-weight: lighter;
+    margin: 48px 0 16px 0;
+}
+
+.off-section h4{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.off-section img{
+    width: 50%;
+    margin-top: 48px;
+}
+
+
+/* welcome  section style */
+
+.welcome{
+    position: relative;
+
+}
+
+.welcome::after{
+    content: '';
+    position: absolute;
+        right: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 16px;
+    background: linear-gradient(to right,
+                #070211,
+                #ffffff3b
+
+            );
+        pointer-events: none;
+    
+}
+
+.welcome-container{
+    position:absolute;
+    top:50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    margin: 0 auto;
+    z-index: 1;
+    
+}
+
+
+
+
+
+.welcome-content{
+    color:white;
+    width: 70%;
+    margin-left: 130px;
+}
+
+.welcome-content h2{
+    font-size: 64px;
+    letter-spacing: 11px;
+    margin-bottom: 24px;
+
+}
+.welcome-container img{
+    width:20%;
+    margin-right: 140px;
+}
+
+.welcome-content p{
+    color: #ffffff80;
+    margin-bottom: 48px;
+}
+.welcome-content button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
 }

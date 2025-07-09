@@ -164,3 +164,23 @@ section{
     font-size: 20px;
     font-weight: bold;
 }
+
+.join {
+background: linear-gradient(to bottom,
+            rgba(255, 0, 0, 1) 0%,
+            rgba(255, 0, 0, 0) 100%);
+    border-radius: 16px;
+    text-align: center;
+    /* width: 100%; */
+
+}
+
+.join-container{
+    padding:100px 0 100px 0;
+}
+
+.join-container h3{
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+}

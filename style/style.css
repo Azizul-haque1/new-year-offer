@@ -1,0 +1,63 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 100%;
+}
+
+body{
+
+    min-width: 100vh;
+
+}
+
+header{
+    max-width: 83%;
+    margin: 50px auto;
+
+}
+
+.new-year-banner{
+    position: relative;
+}
+
+
+.new-year-banner::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 16px;
+    background: linear-gradient(to bottom,
+            #070211,
+            /* উপরের দিকে হালকা সাদা */
+            #ffffff00
+            /* নিচে ট্রান্সপারেন্ট */
+        );
+        pointer-events: none;
+    /* যাতে ক্লিক ইমেজে যায় */ 
+}
+
+.banner-content{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    color: white;
+    transform: translateY(-50%);
+    z-index:1;
+}
+
+.banner-content h4{
+    font-size: 36px;
+}
+
+.banner-content h1{
+    font-size: 72px;
+
+}

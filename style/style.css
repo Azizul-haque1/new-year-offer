@@ -392,3 +392,64 @@ section{
 .card img{
     max-width: 100%;
 }
+
+
+/* subscribe section style */
+.subscribe-section{
+    background-color: #ff000007;
+    
+}
+
+.subscribe-container{
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+}
+.subscribe-container{
+    text-align: center;
+
+}
+
+.subscribe-container img{
+    max-width: 10%;
+    margin-bottom: 40px;
+}
+
+.subscribe-container h2{
+    font-size: 48px;
+    margin-bottom: 22px;
+}
+
+.subscribe-container p{
+    color: #07021160;
+    margin-bottom: 48px;
+
+}
+
+.subscribe{
+    position: relative;
+    width: 100%;
+
+}
+
+
+.subscribe-email{
+    padding: 25px 450px 25px 30px;
+    border-radius: 50px;
+    background-color: white;
+    border: none;
+}
+.subscribe button{
+    position: absolute;
+    padding: 23px 56px;
+    top: 50%;
+    right: 200px;
+    transform: translateY(-50%);
+    border: none;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+
+}

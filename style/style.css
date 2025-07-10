@@ -68,7 +68,7 @@ section{
     text-align: center;
 }
 
-.off-section h2, h6{
+.off-section h2, .off-section h6{
     color: #ff0000;
     
 }
@@ -351,4 +351,44 @@ section{
     position: absolute;
     transform: translateY(-50%);
     z-index: 1;
+}
+
+/* card section style */
+.card-portfolio{
+    /* max-width: 50%; */
+}
+
+.card-portfolio h6{
+    color: red;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card-portfolio  h2{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-portfolio p{
+    font-size: 20px;
+    color: #07021160;
+    margin-bottom: 48px;
+}
+
+.card-container{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card{
+    text-align: center;
+    align-items: center;
+    margin: 10px 10px;
+    
+}
+.card img{
+    max-width: 100%;
 }

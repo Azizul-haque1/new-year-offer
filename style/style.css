@@ -231,14 +231,95 @@ section{
 .best-offer-section{
     display: flex;
     align-items: center;
+    margin: 120px  auto;
     justify-content: space-between;
 }
 
 .best-offer-content{
     max-width: 30%;
     margin-right: 70px;
+
 }
+
+.best-offer-content h4{
+
+    color: red;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    font-weight: lighter;
+    margin-bottom: 5px;
+}
+
+.best-offer-content h2{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+.best-offer-content p{
+    color: #07021180;
+}
+
 .best-offer-image{
     max-width: 40%;
-    margin-right: 120px;
+    margin-right: 100px;
 }
+
+.best-offer-image img {
+    border:7px solid red;
+    border-radius: 50%;
+    padding: 20px;
+
+}
+
+.happy-new-year{
+    max-width: 30%;
+    /* margin-bottom: 20px; */
+}
+
+.happy-new-year img{
+    max-width: 30%;
+
+}
+
+.happy-new-year h2{
+    color: red;
+    font-size: 48px;
+    margin-bottom:16px;
+}
+
+
+.happy-new-year p{
+    color: #07021180;
+    margin-bottom: 40px;
+}
+
+
+/* holiday section  style */
+
+
+.holiday-discount{
+    text-align: center;
+    padding:0 130px;
+}
+
+.holiday-discount h6{
+    color: #070211;
+    font-size: 24px;
+}
+
+.holiday-discount  h2{
+    color: #070211;
+    font-size: 72px;
+    
+}
+
+.holiday-discount h2 span{
+    color: red;
+}
+
+.holiday-discount p{
+    color: #07021160;
+}
+

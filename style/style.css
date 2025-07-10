@@ -323,3 +323,32 @@ section{
     color: #07021160;
 }
 
+
+.gift{
+    display: flex;
+    text-align: right;
+    justify-content: end;
+    margin-top: 50px;
+    
+}
+
+.gift img{
+    max-width: 100%;
+}
+
+.gift-image{
+    max-width: 30%;
+}
+
+.rectangle{
+    position: relative;
+}
+
+
+.gift-image{
+    /* left: 20px; */
+    left: 10%;
+    position: absolute;
+    transform: translateY(-50%);
+    z-index: 1;
+}

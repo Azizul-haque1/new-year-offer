@@ -397,6 +397,7 @@ section{
 /* subscribe section style */
 .subscribe-section{
     background-color: #ff000007;
+    border-radius: 16px;
     
 }
 
@@ -426,30 +427,67 @@ section{
 
 }
 
-.subscribe{
-    position: relative;
+
+.subscribe {
+    display: flex;
+    justify-content: center;
     width: 100%;
+} 
 
-}
 
-
-.subscribe-email{
-    padding: 25px 450px 25px 30px;
-    border-radius: 50px;
-    background-color: white;
+.subscribe-email {
+    padding: 25px 30px;
+    border-radius: 50px 0 0 50px;
     border: none;
+    width: 400px;
 }
-.subscribe button{
-    position: absolute;
+
+
+.subscribe button {
     padding: 23px 56px;
-    top: 50%;
-    right: 200px;
-    transform: translateY(-50%);
     border: none;
     background-color: red;
     color: white;
     font-size: 20px;
-    border-bottom-right-radius: 50px;
-    border-top-right-radius: 50px;
+    border-radius: 0 50px 50px 0;
+    cursor: pointer;
+}
+
+
+.footer-section{
+    padding-top: 120px;
+    padding-bottom: 50px;
+    background-color: #070211;
+}
+
+.footer-container{
+        max-width: 83%;
+        margin: 120px auto;
+}
+
+
+.address{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:50px;
+}
+
+.media img{
+    max-width: 4%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.media {
+    text-align: center;
 
 }
+
+
+
+
+
+
+
